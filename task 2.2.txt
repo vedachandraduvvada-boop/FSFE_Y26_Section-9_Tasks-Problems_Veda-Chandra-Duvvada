@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <style>
+        body {
+            background-color: #FFFFE0;
+            font-family: serif;
+            padding: 20px;
+        }
+        .form-row {
+            margin-bottom: 15px;
+        }
+        label {
+            display: inline-block;
+            font-size: 18px;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+        }
+        .input-group label {
+            width: 180px;
+        }
+        .address-group {
+            display: flex;
+            align-items: flex-end;
+        }
+        .btn-group {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Employee Registration Form</h1>
+
+    <form action="#" method="post">
+        <div class="form-row input-group">
+            <label for="empName">Employee Name:</label>
+            <input type="text" id="empName" name="empName" placeholder="Enter your name">
+        </div>
+
+        <div class="form-row input-group">
+            <label for="empPassword">Password:</label>
+            <input type="password" id="empPassword" name="empPassword">
+        </div>
+
+        <div class="form-row input-group">
+            <label for="empEmail">Email:</label>
+            <input type="email" id="empEmail" name="empEmail">
+        </div>
+
+        <div class="form-row input-group">
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile">
+        </div>
+
+        <div class="form-row input-group">
+            <label for="empAge">Age:</label>
+            <input type="number" id="empAge" name="empAge" style="width: 80px;">
+        </div>
+
+        <div class="form-row input-group">
+            <label for="empDob">Date of Birth:</label>
+            <input type="date" id="empDob" name="empDob">
+        </div>
+
+        <div class="form-row input-group">
+            <label for="interviewTime">Preferred Interview Time:</label>
+            <input type="time" id="interviewTime" name="interviewTime">
+        </div>
+
+        <div class="form-row">
+            <label style="width: 175px;">Gender:</label>
+            <input type="radio" id="empMale" name="empGender" value="Male">
+            <label for="empMale" style="font-size: 16px; margin-right: 10px;">Male</label>
+            <input type="radio" id="empFemale" name="empGender" value="Female">
+            <label for="empFemale" style="font-size: 16px;">Female</label>
+        </div>
+
+        <div class="form-row">
+            <label style="width: 175px;">Skills:</label>
+            <input type="checkbox" id="empHtml" name="empSkills" value="HTML">
+            <label for="empHtml" style="font-size: 16px; margin-right: 10px;">HTML</label>
+            <input type="checkbox" id="empCss" name="empSkills" value="CSS">
+            <label for="empCss" style="font-size: 16px; margin-right: 10px;">CSS</label>
+            <input type="checkbox" id="empJs" name="empSkills" value="JavaScript">
+            <label for="empJs" style="font-size: 16px;">JavaScript</label>
+        </div>
+
+        <div class="form-row input-group">
+            <label for="empDepartment">Select Department:</label>
+            <select id="empDepartment" name="empDepartment">
+                <option value="" disabled selected>Select Department</option>
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <option value="Finance">Finance</option>
+            </select>
+        </div>
+
+        <div class="form-row input-group">
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume">
+        </div>
+
+        <div class="form-row address-group">
+            <label for="empAddress" style="width: 180px;">Address:</label>
+            <textarea id="empAddress" name="empAddress" rows="4" cols="40" placeholder="Enter your address"></textarea>
+        </div>
+
+        <div class="form-row input-group">
+            <label for="experience">Work Experience:</label>
+            <input type="range" id="experience" name="experience" min="0" max="20">
+        </div>
+
+        <div class="form-row input-group">
+            <label for="linkedin">LinkedIn Profile:</label>
+            <input type="url" id="linkedin" name="linkedin" placeholder="Enter LinkedIn URL">
+        </div>
+
+        <div class="btn-group">
+            <button type="submit">Register</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+
+</body>
+</html>
