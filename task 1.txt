@@ -1,0 +1,49 @@
+<html>
+    <head><title>Shopping Store</title></head>
+    <body>
+        <h1 style="text-align: center;">Welcome to Our Shopping Store</h1>
+        <p style="text-align: center;"><b><i>Smart Store</i></b></p>
+        <p style="text-align: center;"><mark>Best Offers Available</mark></p>
+        <hr>
+    <centre></centre>
+    <h3>Product Categories</h3>
+    <ul>
+        <li>Electronics</li>
+        <li>Clothing</li>
+        <li>Home Appliances</li>
+        <li>Books</li>
+        <li>Accessories</li>
+    </ul>
+
+    <hr>
+
+    <h3>Steps to Purchase</h3>
+    <ol>
+        <li>Select a product</li>
+        <li>Add the product to cart</li>
+        <li>Enter delivery details</li>
+        <li>Make payment</li>
+        <li>Receive your order</li>
+    </ol>
+
+    <hr>
+
+    <h3>Product Details</h3>
+
+    <dl>
+        <dt><b><u>Laptop</u></b></dt>
+        <dd>Used for programming and office work.</dd>
+
+        <dt><b><u>Smartphone</u></b></dt>
+        <dd>Used for communication and entertainment.</dd>
+
+        <dt><b><u>Headphones</u></b></dt>
+        <dd>Used for listening to music.</dd>
+    </dl>
+
+    <hr>
+
+    <p><b>Shop Now!</b> <i>Enjoy exciting discounts.</i></p>   
+    </centre> 
+    </body>
+</html>
